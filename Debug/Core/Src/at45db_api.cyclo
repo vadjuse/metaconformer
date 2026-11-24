@@ -1,0 +1,8 @@
+../Core/Src/at45db_api.c:12:6:nCS_activate	1
+../Core/Src/at45db_api.c:16:6:nCS_deactivate	1
+../Core/Src/at45db_api.c:21:6:at45dblib_getid	1
+../Core/Src/at45db_api.c:30:6:at45dblib_page_prog_1	3
+../Core/Src/at45db_api.c:59:6:at45dblib_read_status	3
+../Core/Src/at45db_api.c:77:6:at45dblib_cont_read	3
+../Core/Src/at45db_api.c:108:6:at45dblib_wait_ready_bit	2
+../Core/Src/at45db_api.c:120:6:at45dblib_mass_erase	2

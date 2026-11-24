@@ -1,0 +1,4 @@
+../Core/Src/buttons_actions.c:24:6:real_pop_from_sequencer	9
+../Core/Src/buttons_actions.c:66:6:real_stelement_mute_toggle	6
+../Core/Src/buttons_actions.c:88:6:real_mtelement_mute_toggle	3
+../Core/Src/buttons_actions.c:100:6:real_trelement_mute_toggle	3

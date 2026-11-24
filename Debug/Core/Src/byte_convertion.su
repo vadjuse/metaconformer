@@ -1,0 +1,5 @@
+../Core/Src/byte_convertion.c:12:6:byte_to_word	16	static
+../Core/Src/byte_convertion.c:28:6:byte_to_midi_device	16	static
+../Core/Src/byte_convertion.c:40:6:byte_to_serial	16	static
+../Core/Src/byte_convertion.c:46:6:word_to_serial	16	static
+../Core/Src/byte_convertion.c:52:6:number_to_serial_human_readable	16	static

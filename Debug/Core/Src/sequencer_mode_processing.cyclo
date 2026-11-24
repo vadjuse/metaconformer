@@ -1,0 +1,2 @@
+../Core/Src/sequencer_mode_processing.c:17:6:message_append_to_sequencer	9
+../Core/Src/sequencer_mode_processing.c:100:6:pause_append_to_sequencer	2

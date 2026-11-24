@@ -1,0 +1,15 @@
+../Core/Src/irqs.c:36:6:EXTI15_10_IRQHandler	32	static
+../Core/Src/irqs.c:231:6:EXTI9_5_IRQHandler	16	static
+../Core/Src/irqs.c:354:6:EXTI4_IRQHandler	8	static
+../Core/Src/irqs.c:358:6:EXTI3_IRQHandler	8	static
+../Core/Src/irqs.c:362:6:EXTI2_IRQHandler	8	static
+../Core/Src/irqs.c:366:6:EXTI1_IRQHandler	8	static
+../Core/Src/irqs.c:370:6:EXTI0_IRQHandler	8	static
+../Core/Src/irqs.c:375:6:line_procedure	24	static
+../Core/Src/irqs.c:412:6:USART3_IRQHandler	8	static
+../Core/Src/irqs.c:421:6:USART2_IRQHandler	8	static
+../Core/Src/irqs.c:430:6:USART1_push_to_queue	16	static
+../Core/Src/irqs.c:465:6:USART1_IRQHandler	4	static
+../Core/Src/irqs.c:488:6:UART4_push_to_queue	16	static
+../Core/Src/irqs.c:507:6:UART4_IRQHandler	4	static
+../Core/Src/irqs.c:529:6:TIM1_UP_TIM10_IRQHandler	8	static

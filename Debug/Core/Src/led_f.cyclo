@@ -1,0 +1,4 @@
+../Core/Src/led_f.c:18:6:led_state_toggle_and_show	2
+../Core/Src/led_f.c:29:6:led_display_init_sweep	4
+../Core/Src/led_f.c:46:6:led_display_config_and_show	3
+../Core/Src/led_f.c:56:6:display_one_led_toggle	1

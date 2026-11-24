@@ -1,0 +1,2 @@
+../Core/Src/mult_mode_processing.c:10:9:mult_note_transpose	24	static
+../Core/Src/mult_mode_processing.c:54:6:send_to_mult_dest	40	static
