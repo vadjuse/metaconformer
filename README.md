@@ -86,9 +86,22 @@ There are two ways to upload firmware:
 - **USB Bootloader:** The device comes with a factory-installed USB bootloader that allows firmware updates without an external programmer.
 - **ST-Link:** Firmware can also be uploaded directly using an ST-Link programmer.
 
-**Important: Do not erase or overwrite the factory-installed USB bootloader.**
+**Important: Do not erase or overwrite the factory-installed USB bootloader. **
 
-The bootloader source code is not included in this repository. If the bootloader is erased or overwritten, firmware updates will require an external ST-Link programmer unless you implement and install your own bootloader.
+The bootloader source code is not included in this repository. If the bootloader is erased or overwritten, firmware updates will require an external ST-Link programmer unless you implement and install your own bootloader. 
+
+The bootloader is located at the beginning of the microcontroller's internal Flash memory, starting at `0x08000000`. It occupies the first 128 KB of Flash memory.
+
+User firmware must be linked to start at the next 128 KB boundary, at address `0x08040000`.
+
+To flash custom firmware:
+
+1. Build your firmware and generate a `.bin` file.
+2. Rename the file to `blink.bin`.
+3. Connect the device to your computer in bootloader mode.
+4. Copy `blink.bin` to the device's USB mass storage.
+
+The bootloader will automatically detect the file, copy the firmware to the designated Flash memory region, and prepare it for execution.
 
 ## Firmware Architecture
 
@@ -119,3 +132,7 @@ Feel free to study, modify and build upon the code. Just don't expect further up
 ## License
 
 This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
+
+## Disclaimer
+
+Any hardware or software modifications are not covered under the manufacturer's warranty, including cases of device bricking due to uploading user-made firmware.
